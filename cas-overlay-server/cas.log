@@ -1,0 +1,62 @@
+2016-08-20 14:48:59,748 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 3 services.
+2016-08-20 14:49:00,068 WARN [org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler] - SimpleTestUsernamePasswordAuthenticationHandler is only to be used in a testing environment.  NEVER enable this in a production environment.
+2016-08-20 14:49:00,462 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2016-08-20 14:49:19,900 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2016-08-20 14:49:19,905 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2016-08-20 14:49:19,909 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2016-08-20 14:49:22,766 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2016-08-20 14:49:22,766 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2016-08-20 14:51:00,008 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-08-20 14:51:00,014 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 3 services.
+2016-08-20 14:51:20,386 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SimpleTestUsernamePasswordAuthenticationHandler successfully authenticated jleleu+password
+2016-08-20 14:51:20,393 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated jleleu with credentials [jleleu+password].
+2016-08-20 14:51:20,399 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [jleleu+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Sat Aug 20 14:51:20 EEST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-08-20 14:51:20,414 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-6sxc2higpqHjjRwFCYbIRADWZBfZcfNfXeLNXPfxsUn0AbbLmw-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Sat Aug 20 14:51:20 EEST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-08-20 14:51:20,434 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-1-wofkV3xbqZ0wBYZs4HiR-cas01.example.org] for service [http://localhost:8080/cas-management/j_spring_cas_security_check] for user [jleleu]
+2016-08-20 14:51:20,444 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: jleleu
+WHAT: ST-1-wofkV3xbqZ0wBYZs4HiR-cas01.example.org for http://localhost:8080/cas-management/j_spring_cas_security_check
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Sat Aug 20 14:51:20 EEST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-08-20 14:51:20,629 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-1-wofkV3xbqZ0wBYZs4HiR-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Sat Aug 20 14:51:20 EEST 2016
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2016-08-20 14:51:30,902 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Shutting down Quartz Scheduler
