@@ -1079,3 +1079,8 @@ Tag                                                  Avg(ms)         Min        
 Performance Statistics   2016-08-27 17:03:00 - 2016-08-27 17:04:00
 Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
 
+Performance Statistics   2016-08-27 17:48:00 - 2016-08-27 17:49:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AUTHENTICATE                                            63,0          63          63         0,0           1
+CREATE_TICKET_GRANTING_TICKET                           82,0          82          82         0,0           1
+
