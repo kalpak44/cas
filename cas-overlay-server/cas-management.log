@@ -25,3 +25,31 @@
 2016-08-27 17:31:23,396 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
 2016-08-27 17:44:40,642 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
 2016-08-27 17:47:39,150 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-08-27 17:50:38,833 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-08-27 19:31:42,336 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-08-27 21:31:42,143 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-08-27 22:04:23,601 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-08-27 23:30:51,984 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [AbstractAccessDecisionManager.accessDenied] cannot be found in the language bundle for the locale [ru_RU]
+2016-08-27 23:31:14,765 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [AbstractAccessDecisionManager.accessDenied] cannot be found in the language bundle for the locale [ru_RU]
+2016-08-28 01:34:01,281 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-09-04 11:07:38,558 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-09-04 11:38:11,805 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-09-04 13:53:11,458 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-09-04 14:03:23,602 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-09-04 14:07:39,529 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-09-04 14:09:26,491 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-09-04 14:11:36,538 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-09-04 14:20:42,968 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-09-04 14:37:02,064 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-09-04 14:43:47,449 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-09-04 14:47:23,056 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-09-04 14:52:07,840 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-09-04 15:02:24,386 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-09-04 15:08:30,505 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-09-04 15:14:42,542 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-09-04 15:26:57,816 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-09-04 15:39:01,797 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-09-04 16:03:50,558 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-09-04 16:16:42,545 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-09-05 11:31:31,048 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2016-09-05 11:41:54,334 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.

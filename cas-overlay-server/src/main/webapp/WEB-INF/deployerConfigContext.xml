@@ -143,8 +143,7 @@ example uses the Stub/Mock version.  A real implementation
 
     <util:map id="attrRepoBackingMap">
         <entry key="uid" value="uid"/>
-        <entry key="eduPersonAffiliation" value="eduPersonAffiliation"/>
-        <entry key="groupMembership" value="groupMembership"/>
+        <entry key="mail" value="mail" />
     </util:map>
     <!--
     Sample, in-memory data store for the ServiceRegistry. A real
@@ -153,6 +152,7 @@ implementation
 DAO
     The name of this bean should remain "serviceRegistryDao".
     +-->
+
     <bean id="serviceRegistryDao"
           class="org.jasig.cas.services.InMemoryServiceRegistryDaoImpl"
           p:registeredServices-ref="registeredServicesList"/>
